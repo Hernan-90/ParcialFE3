@@ -6,12 +6,11 @@ import { Form } from './Components/Form'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <h4 className='app_title'>Descubra cual es el Pokemon inicial para su Poke-aventura!</h4>
       <Form />
-      <Card algo={count}/>
     </>
   )
 }

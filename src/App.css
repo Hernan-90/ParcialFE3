@@ -40,3 +40,66 @@
 .read-the-docs {
   color: #888;
 }
+
+.app_title {
+  font-size: 30px;
+}
+
+.form_container, .form_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border-radius: 15px;
+  gap: 35px;
+  justify-content: flex-start;
+}
+
+.form_input {
+  gap: 15px;
+}
+
+.form_label {
+  font-size: 25px;
+}
+
+.btn_form {
+  transition: all 0.3s;
+}
+
+.btn_form:hover {
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  color: #fff;
+}
+
+.card_container {
+  color: #fff;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px;
+
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.card_img {
+  width: 200px;
+}
+
+.Fuego {
+  background-color: red;
+}
+
+.Agua {
+  background-color: blue;
+}
+
+.Planta {
+  background-color: green;
+}
